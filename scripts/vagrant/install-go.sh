@@ -27,5 +27,5 @@ export GOPATH=$HOME/.gopath
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 EOF
 
-# not essential but go get depends on it
+# not essential but go get depends on git
 which git || sudo apt-get install -y git
